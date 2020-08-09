@@ -1,0 +1,29 @@
+{
+  "name" : "snow/translation",
+  "type": "library",
+  "description": "translate field，将字段变更翻译成相应文案",
+  "keywords": ["translate", "translate field"],
+  "authors": [
+    {
+      "name": "zhaoy",
+      "email": "zhaoyang.12@qq.com"
+    }
+  ],
+  "require" : {
+    "php" : ">=7.4",
+    "ext-json" : "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=6.0"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Snow\\Translation\\" : "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Snow\\Translation\\Tests\\": "tests/"
+    }
+  }
+}
