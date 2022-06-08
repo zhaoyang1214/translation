@@ -2,7 +2,9 @@
 
 namespace Snow\Translation\FieldTranslator;
 
-class FieldTranslatorException extends \Snow\Translation\TranslationException
+use Snow\Translation\TranslationException;
+
+class FieldTranslatorException extends TranslationException
 {
 
 }
