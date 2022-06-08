@@ -305,7 +305,7 @@ class Translation
             $fieldClass = FieldDefault::class;
         }
         if (isset($config['value'])) {
-            if (is_callable($config['value'], true)) {
+            if (is_callable($config['value'])) {
                 $valueClass = ValueCallback::class;
             } elseif (is_array($config['value'])) {
                 $valueClass = ValueArray::class;
